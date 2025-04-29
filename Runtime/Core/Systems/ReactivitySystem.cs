@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using AlienSignals.Core.Interfaces;
+using AlienSignals.Runtime.Core.Interfaces;
 
-namespace AlienSignals.Core.Systems
+namespace AlienSignals.Runtime.Core.Systems
 {
     public class ReactiveSystem
     {

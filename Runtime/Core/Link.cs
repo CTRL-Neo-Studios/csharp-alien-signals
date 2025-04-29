@@ -1,6 +1,6 @@
-using AlienSignals.Core.Interfaces;
+using AlienSignals.Runtime.Core.Interfaces;
 
-namespace AlienSignals.Core
+namespace AlienSignals.Runtime.Core
 {
     public class Link
     {

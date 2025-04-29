@@ -1,4 +1,4 @@
-namespace AlienSignals.Core
+namespace AlienSignals.Runtime.Core
 {
     public class OneWayLink<T>
     {

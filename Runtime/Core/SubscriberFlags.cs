@@ -1,6 +1,6 @@
 using System;
 
-namespace AlienSignals.Core
+namespace AlienSignals.Runtime.Core
 {
     [Flags]
     public enum SubscriberFlags

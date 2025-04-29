@@ -1,4 +1,4 @@
-namespace AlienSignals.Core.Interfaces
+namespace AlienSignals.Runtime.Core.Interfaces
 {
     public interface ISubscriber
     {
