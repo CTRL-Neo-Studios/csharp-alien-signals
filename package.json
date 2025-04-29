@@ -1,5 +1,5 @@
 {
-  "name": "csharp-alien-signals",
+  "name": "dev.ctrl-neo.csharp-alien-signals",
   "version": "1.0.0",
   "description": "A custom port of stackblitz/alien-signals to C#.",
   "author": "CTRl Neo Studios",
