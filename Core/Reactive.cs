@@ -1,9 +1,11 @@
-using AlienSignals.Interfaces;
-using AlienSignals.Systems;
+using System;
+using System.Collections.Generic;
+using AlienSignals.Core.Interfaces;
+using AlienSignals.Core.Systems;
 
-namespace AlienSignals;
-
-public static class Reactive
+namespace AlienSignals.Core
+{
+    public static class Reactive
     {
         private static readonly Stack<ISubscriber> _pauseStack = new Stack<ISubscriber>();
         private static readonly ReactiveSystem _system;
@@ -215,3 +217,4 @@ public static class Reactive
             return false;
         }
     }
+}

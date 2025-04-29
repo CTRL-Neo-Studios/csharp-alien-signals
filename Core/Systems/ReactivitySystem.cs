@@ -1,8 +1,10 @@
-using AlienSignals.Interfaces;
+using System;
+using System.Collections.Generic;
+using AlienSignals.Core.Interfaces;
 
-namespace AlienSignals.Systems;
-
-public class ReactiveSystem
+namespace AlienSignals.Core.Systems
+{
+    public class ReactiveSystem
     {
         private readonly Func<ISubscriber, bool> _updateComputed;
         private readonly Func<ISubscriber, bool> _notifyEffect;
@@ -467,3 +469,4 @@ public class ReactiveSystem
             } while (link != null);
         }
     }
+}
