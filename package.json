@@ -1,0 +1,9 @@
+{
+  "name": "csharp-alien-signals",
+  "version": "1.0.0",
+  "description": "A custom port of stackblitz/alien-signals to C#.",
+  "author": "CTRl Neo Studios",
+  "license": "MIT",
+  "displayName": "CSharp Alien Signals",
+  "unity": "2021.3"
+}
