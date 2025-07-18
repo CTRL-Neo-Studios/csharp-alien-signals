@@ -3,7 +3,7 @@ using AlienSignals.Runtime.Core.Interfaces;
 
 namespace AlienSignals.Runtime.Core.Internal;
 
-// Internal implementation class for ISignal
+// The internal class impl. for ISignal.
 internal class Signal<T> : ISignal<T>
 {
     public T Value { get; set; }
